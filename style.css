@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'burfordrusticbookregular';
+    src: url('./assets/burfordrusticbook-regular2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'burfordrusticdropshadow';
+    src: url('./assets/burfordrusticshadowonea-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'burfordstripes';
+    src: url('./assets/burford_stripes-a-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+
+    font-family: Helvetica, Arial, sans-serif;
+    color:#84754d;
+
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 200px;
+    background-color: #234648;
+    background: url(./assets/background.svg) top left;
+    background-size: cover;
+    overflow: visible;
+}
+.logo {
+    height: 180px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #234648;
+}
+.column {
+    width: 50%;
+    margin: 30px 0px;
+    padding: 0px 30px;
+    overflow: scroll;
+}
+#column-a {
+    border-right: solid 1px #84754d;
+}
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.card > .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.card > .info {
+    text-align: left;
+    padding: 10px;
+}
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'burfordrusticdropshadow', Georgia, Times;
+}
+.title {
+    font-size: 2em;
+    color: #fff;
+    font-family: 'burfordstripes', Georgia, Times;
+}
+.badge {
+    font-size: 1.4em;
+    font-family: 'burfordrusticbookregular', Georgia, Times;
+}
+#cesarrionda {
+    padding: 10px;
+    display: none;
+}
+.bio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.5em;
+}
