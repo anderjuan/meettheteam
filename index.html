@@ -10,11 +10,11 @@
 </head>
 <body>
     <div class="header">
-        <img class="logo "src="./assets/logo.svg" height="180px">
+        <img class="logo "src="./assets/logo.svg" height="180px" onClick="window.location.reload();">
     </div>
     <div class="content">
         <div class="column" id="column-a">
-            <div class="card" onclick="myFunction()">
+            <div class="card" onclick="showInfo('César')">
                 <img class="avatar" src="https://placeimg.com/120/120/animals">
                 <div class="info">
                         <span class="name">César Rionda</span><br>
@@ -22,15 +22,15 @@
                         <span class="badge">Foodie</span>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" onclick="showInfo('María')">
                     <img class="avatar" src="https://placeimg.com/120/120/animals">
                     <div class="info">
-                            <span class="name">César Rionda</span><br>
-                            <span class="title">Host</span><br>
-                            <span class="badge">Foodie</span>
+                            <span class="name">María Demo</span><br>
+                            <span class="title">Experience Manager</span><br>
+                            <span class="badge">Night Owl</span>
                     </div>
                 </div>
-            <div class="card">
+            <div class="card" onclick="showInfo('César')">
                 <img class="avatar" src="https://placeimg.com/120/120/animals">
                 <div class="info">
                         <span class="name">César Rionda</span><br>
@@ -72,11 +72,9 @@
             </div>        
         </div>
         <div class="column">
-            <div class="panel" id="cesarrionda">
-                <span class="name">Hello, my name is <br> César</span><br>
-                <span class="badge">Foodie</span>
-                <p class="bio es">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p class="bio en">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="panel" id="description">
+                <span class="name">Encantado de conocerte, forastero</span><br>
+                <p class="bio es">Te invitamos a que conozcas al equipo detrás de ICON Wipton para hacer tu estancia perfecta. <br><br> Cada uno de nosotros conoce la ciudad de una manera diferente.</p>
             </div>
         </div>
     </div>
