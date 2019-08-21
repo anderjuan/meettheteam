@@ -72,12 +72,12 @@ html,body {
     padding: 10px;
 }
 .name {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     font-family: 'burfordrusticdropshadow', Georgia, Times;
 }
 .title {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #fff;
     font-family: 'burfordstripes', Georgia, Times;
 }
