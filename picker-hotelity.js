@@ -9,34 +9,34 @@ function clean() {
 
 function getInfo(name) {switch (name) {
   case 'Sabrina':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Sport, Foodie</span>' + '<p class="bio es">¿Eres cliente asiduo o te gustaría serlo? Habla conmigo, soy el director del hotel y estaré encantado de atenderte y contarte todo lo que sé sobre nuestro barrio.</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Sport, Foodie</span>' + '<p class="bio es">Nuestra Host conoce los mejores planes para disfrutar de un completo día en familia.</p>';
     break;
   case 'Patricia':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Como jefa de recepción, puedo conseguirte las mejores tarifas o ayudarte a encontrar tu habitación perfecta… también puedes preguntarme por todo lo que tenga que ver con “beauty”: peluquerías, salones de belleza…</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Patricia es nuestra Experience Manager y además conoce los locales más de moda y los mejores planes para disfrutar de la amplia oferta cultural de Madrid.</p>';
     break;
   case 'Lucía':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Si buscas un bar para tomarte una copa o un local para darlo todo, no dudes en buscarme… ¡conozco bien la noche madrileña!</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Si vienes acompañado de tu perro a Triball, Lucía sabrá indicarte los mejores restaurantes y tiendas donde disfrutar acompañado de tu mascota.</p>';
   break;
   case 'Daniel':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Para todo lo relacionado con moda masculina, animales y cómo ponerte en forma, let me know!</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Gran aficionado a la fotografía, Daniel es un gran conocedor de las mejores rutas urbanas donde sacar el mejor partido a la luz y fotografiar los paisajes de la ciudad.</p>';
   break;
   case 'Fran':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Instagramer, apasionada del yoga y coleccionista de zapatillas deportivas.</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">El compañero más geeky de Triball, no solo está siempre al tanto de las mejores tiendas de cómics y merchandising del barrio, también conoce los bares más auténticos de Madrid.</p>';
   break;
   case 'Carmen':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Por culpa de mi aventura en Escocia me he hecho experta en whiskys, pero también en comida saludable.</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Carmen conoce los mejores planes para pasar un día perfecto con los niños y además le encantan los museos. Sabrá recomendarte las mejores exposiciones para visitar en familia.</p>';
   break;
   case 'Pablo':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Nací en Bielorrusia (¡hablo ruso!) y soy amante de la Fotografía y la Historia del Arte.</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Pablo podrá recomendarte los mejores restaurantes para cualquier ocasión y los planes más healthy para todos los deportistas que vengan a visitarnos.</p>';
   break;
   case 'Lorena':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Fanático del deporte, me gusta especialmente bailar. ¡Lo mío es el shuffle dance!</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Lorena es una gran aficionada a la música y podrá recomendaros las mejores salas para disfrutar de actuaciones en directo, así como las tiendas más auténticas del barrio.</p>';
   break;
   case 'Odair':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Sueca de nacimiento, madrileña de adopción y enamorada de los animales. Seré la mejor amiga de tu mascota.</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Odair es nuestro encargado de elaborar cada mañana los mejores smoothies para nuestros desayunos y es también un gran aficionado al running. ¡Pregúntale por las mejores rutas!</p>';
   break;
   case 'CarlosR':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> Carlos</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Como jefe de cocina, estaré encantado de recomendarte restaurantes y decirte qué platos no te puedes perder en Madrid.</p>';
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> Carlos</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Carlos, nuestro responsable de mantenimiento, es además un gran aficionado al fútbol.</p>';
   break;
   case 'CarlosO':
     document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> Carlos</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Conciertos, buena música en vivo o salir a bailar, I rock!</p>';
