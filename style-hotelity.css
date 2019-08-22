@@ -1,0 +1,82 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+
+    font-family: Helvetica, Arial, sans-serif;
+    color:#000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.name,.title,.badge {
+    text-transform: uppercase;
+}
+
+.header {
+    height: 150px;
+    background-color: #fff;
+    background: url(./assets/background-hotelity.svg) top left;
+    background-size: cover;
+    overflow: visible;
+}
+.logo {
+    height: 150px;
+    padding-top: 10px;
+}
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    overflow: scroll;
+}
+.column {
+    width: 50%;
+    margin: 30px 0px;
+    padding: 0px 30px;
+    overflow: scroll;
+}
+#column-a {
+    border-right: solid 1px #000;
+}
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.card > .avatar {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.card > .info {
+    text-align: left;
+    padding: 10px;
+}
+.name {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.title {
+    font-size: 1.4em;
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.badge {
+    font-size: 1em;
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#cesarrionda {
+    padding: 10px;
+    display: none;
+}
+.bio {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
