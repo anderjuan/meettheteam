@@ -35,11 +35,8 @@ function getInfo(name) {switch (name) {
   case 'Odair':
     document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Odair es nuestro encargado de elaborar cada mañana los mejores smoothies para nuestros desayunos y es también un gran aficionado al running. ¡Pregúntale por las mejores rutas!</p>';
   break;
-  case 'CarlosR':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> Carlos</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Carlos, nuestro responsable de mantenimiento, es además un gran aficionado al fútbol.</p>';
-  break;
-  case 'CarlosO':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> Carlos</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Conciertos, buena música en vivo o salir a bailar, I rock!</p>';
+  case 'Carlos':
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Beauty, Foodie</span>' + '<p class="bio es">Carlos, nuestro responsable de mantenimiento, es además un gran aficionado al fútbol.</p>';
   break;
   default:
     document.getElementById('description').innerHTML =  `<span class="name">oopsie, we couldn't find ${name} </span>`
