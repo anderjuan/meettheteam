@@ -30,15 +30,16 @@ html,body {
     flex-direction: column;
 }
 .header {
-    height: 200px;
+    height: 150px;
     background-color: #234648;
     background: url(./assets/background.svg) top left;
     background-size: cover;
     overflow: visible;
 }
 .logo {
-    height: 180px;
-    padding-left: 30px;
+    box-sizing: border-box;
+    height: 150px;
+    padding-left: 20px;
     padding-top: 10px;
 }
 .content {
@@ -73,23 +74,19 @@ html,body {
     padding: 10px;
 }
 .name {
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: bold;
     font-family: 'burfordrusticdropshadow', Georgia, Times;
 }
 .title {
-    font-size: 1.8em;
+    font-size: 1.7em;
     color: #fff;
     font-family: 'burfordstripes', Georgia, Times;
 }
 .badge {
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #fff;
     font-family: 'burfordrusticbookregular', Georgia, Times;
-}
-#cesarrionda {
-    padding: 10px;
-    display: none;
 }
 .bio {
     font-family: Georgia, 'Times New Roman', Times, serif;
