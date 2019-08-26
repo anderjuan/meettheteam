@@ -18,8 +18,9 @@ html,body {
 .header {
     height: 150px;
     background-color: #fff;
-    background: url(./assets/background-hotelity.svg) top left;
+    background: url(./assets/background-hotelity.svg) top right;
     background-size: cover;
+    background-repeat: no-repeat;
     overflow: visible;
 }
 .logo {
