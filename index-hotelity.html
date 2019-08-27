@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="300">
     <link rel="stylesheet" href="./style-hotelity.css" type="text/css">
     <script src="./picker-hotelity.js"></script>
     <title>Meet Our Team</title>
 </head>
 <body>
     <div class="header">
-        <img class="logo "src="./assets/logo-hotelity.svg" onClick="window.location.reload();">
+        <img class="logo "src="./assets/logo-hotelity.svg">
     </div>
     <div class="content">
         <div class="column" id="column-a">
@@ -86,7 +87,7 @@
                         <span class="badge">Healthy Food, Running</span>
                 </div>
             </div>
-            <div class="card" onclick="showInfo('Carlos')">
+            <div class="card" onclick="showInfo('Carlos')" id="lastcard">
                 <img class="avatar" src="./assets/avatar/Carlosr.jpg">
                 <div class="info">
                         <span class="name">Carlos Relaño</span><br>
@@ -95,6 +96,12 @@
                 </div>
             </div>
         </div>
+        <a href="#lastcard"><svg xmlns="http://www.w3.org/2000/svg" width="11.414" height="6.414" viewBox="0 0 11.414 6.414">
+            <g id="Grupo_51" data-name="Grupo 51" transform="translate(-13.793 -571.793)">
+              <line id="Línea_3" data-name="Línea 3" x2="5" y2="5" transform="translate(14.5 572.5)" fill="none" stroke="#000" stroke-linecap="square" stroke-width="1"/>
+              <line id="Línea_4" data-name="Línea 4" x1="5" y2="5" transform="translate(19.5 572.5)" fill="none" stroke="#000" stroke-linecap="square" stroke-width="1"/>
+            </g>
+        </svg></a>
         <div class="column">
             <div class="panel" id="description">
                 <span class="name">Encantados de conocerte

@@ -53,10 +53,21 @@ html,body {
     width: 50%;
     margin: 30px 0px;
     padding: 0px 30px;
-    overflow: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
 }
 #column-a {
     border-right: solid 1px #84754d;
+}
+svg line {
+    stroke: #84754d;
+}
+svg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-6px, -29px);
 }
 .card {
     display: flex;
