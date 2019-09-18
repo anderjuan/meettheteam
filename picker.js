@@ -23,14 +23,8 @@ function getInfo(name) {switch (name) {
   case 'Rocío':
     document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Instagrammer, Moda</span>' + '<p class="bio es">Instagramer, apasionada del yoga y coleccionista de zapatillas deportivas.</p>' + '<p class="bio en">Instagramer, passion for yoga and sports shoe collector.</p>';
   break;
-  case 'Elena':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Whisky, Healthy food</span>' + '<p class="bio es">Por culpa de mi aventura en Escocia me he hecho experta en whiskys, pero también en comida saludable.</p>' + '<p class="bio en">Due to my adventures in Scotland, I am now an expert in whisky. I can also talk to you about healthy food.</p>';
-  break;
   case 'Hanna':
     document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Fotografía, Arte</span>' + '<p class="bio es">Nací en Bielorrusia (¡hablo ruso!) y soy amante de la Fotografía y la Historia del Arte.</p>' + '<p class="bio en">Born in Belarus, I am a lover of photography and art history. Oh, and I also speak Russian </p>';
-  break;
-  case 'Teo':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Moda, Deporte</span>' + '<p class="bio es">Fanático del deporte, me gusta especialmente bailar. ¡Lo mío es el shuffle dance!</p>' + '<p class="bio en">Sports enthusiast, especially dancing! The ‘shuffle’ is definitely my favourite!</p>';
   break;
   case 'Rebecca':
     document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Mascotas, Beauty</span>' + '<p class="bio es">Sueca de nacimiento, madrileña de adopción y enamorada de los animales. Seré la mejor amiga de tu mascota.</p>' + '<p class="bio en">Swedish by birth, Madrileña by choice. I´ll be your pets´ best friend.</p>';
@@ -53,6 +47,9 @@ function getInfo(name) {switch (name) {
   break;
   case 'Belén':
     document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Música, Deporte</span>' + '<p class="bio es">Fanática del Atleti y experta en la vida del barrio.</p>' + '<p class="bio en">Athletico Madrid fan and expert when it comes to neighbourhood life.</p>';
+  break;
+  case 'Andrea':
+  document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Cine, Cultura</span>' + '<p class="bio es">Conocedora de los mejores sitios del barrio, fanática del cine y el teatro, estoy a tu entera disposición.</p>' + '<p class="bio en">Expert in the best places to go in the neighbourhood, film and theatre fanatic. I´m here for anything you need.</p>';
   break;
   default:
     document.getElementById('description').innerHTML =  `<span class="name">oopsie, we couldn't find ${name} </span>`
