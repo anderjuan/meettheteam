@@ -45,8 +45,8 @@ function getInfo(name) {switch (name) {
     document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> Ángel</span><br>` + '<span class="badge">Cultureta, Música</span>' + '<p class="bio es">Siempre me verás de noche, que es cuando trabajo. Como tengo niños, puedo sugerirte planes de familia o lo que necesites.</p>' + '<p class="bio en">You will more than likely find me at night time, which is when I work. As I have children, I can give you great advice on family days out or anything related to family life.</p>';
     // For AngelG name is printed manually because there is another Angel
   break;
-  case 'Belén':
-    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Música, Deporte</span>' + '<p class="bio es">Fanática del Atleti y experta en la vida del barrio.</p>' + '<p class="bio en">Athletico Madrid fan and expert when it comes to neighbourhood life.</p>';
+  case 'Joana':
+    document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Música, Deporte</span>' + '<p class="bio es">¿Vacaciones en familia? Amante declarada de niños y mascotas, pregúntame y encontraré el mejor plan para ti.</p>' + '<p class="bio en">Family holiday? Declared lover of children and pets - ask me and I will find you the best plan.</p>';
   break;
   case 'Andrea':
   document.getElementById('description').innerHTML = `<span class="name">Hello, my name is <br> ${name}</span><br>` + '<span class="badge">Cine, Cultura</span>' + '<p class="bio es">Conocedora de los mejores sitios del barrio, fanática del cine y el teatro, estoy a tu entera disposición.</p>' + '<p class="bio en">Expert in the best places to go in the neighbourhood, film and theatre fanatic. I´m here for anything you need.</p>';
